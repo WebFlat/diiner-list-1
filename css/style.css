@@ -30,13 +30,18 @@ header h1 {
 	margin-bottom: 10px;
 }
 section.list {
-	width: 60%;
+	width: 80%;
 	margin: 0 auto;
 	padding: 40px;
 	font-size: 16px;
 }
 form ul {
 	text-decoration: none;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
 }
 li {
 	border-bottom: 2px solid rgb(135, 130, 160);
